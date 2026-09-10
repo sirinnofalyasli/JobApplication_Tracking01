@@ -11,9 +11,6 @@ Requirements
 
 ## 6. Notes --> Late notes 
 
-
-## 7. Relationships ...
-
 ## 7. Relationships
 
 User - Application
