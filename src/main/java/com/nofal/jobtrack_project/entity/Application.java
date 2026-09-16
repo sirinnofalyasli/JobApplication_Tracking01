@@ -20,8 +20,11 @@ public class Application {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer applicationId;
 
-    @Column(name = "application_link")
+    @Column(name = "application_date")
     private LocalDate applicationDate;
+
+    @Column(name = "application_link")
+    private String applicationLink;
 
     @Enumerated(EnumType.STRING)
     @Column(name = "application_status")
